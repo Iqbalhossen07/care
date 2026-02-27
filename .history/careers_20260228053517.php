@@ -4,7 +4,7 @@
     <!-- header section  -->
     <?php include('header.php') ?>
 
-    <!-- breadcrumb section -->
+    <!-- breadcrumb sectom -->
     <section class="relative h-[250px] flex items-center overflow-hidden bg-darkText">
         <div class="absolute inset-0 z-0">
             <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=1500&q=80"
@@ -27,8 +27,6 @@
         </div>
     </section>
 
-
-    <!-- job section -->
     <section class="py-20 bg-lightBg">
         <div class="max-w-5xl mx-auto px-6 lg:px-8">
 
@@ -205,13 +203,8 @@
         </div>
     </section>
 
-    <!-- cta section -->
     <?php include('cta.php') ?>
-
-    <!-- footer section -->
     <?php include('footer.php') ?>
-
-    <!-- js section -->
     <script src="main.js"></script>
 </body>
 

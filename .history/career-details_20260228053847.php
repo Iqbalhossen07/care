@@ -249,7 +249,7 @@
     <?php include('footer.php') ?>
 
 
-    <!-- js section -->
+    <!-- js  -->
     <script src="main.js"></script>
 </body>
 

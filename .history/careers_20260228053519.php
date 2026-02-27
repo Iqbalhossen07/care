@@ -27,8 +27,6 @@
         </div>
     </section>
 
-
-    <!-- job section -->
     <section class="py-20 bg-lightBg">
         <div class="max-w-5xl mx-auto px-6 lg:px-8">
 
@@ -205,13 +203,8 @@
         </div>
     </section>
 
-    <!-- cta section -->
     <?php include('cta.php') ?>
-
-    <!-- footer section -->
     <?php include('footer.php') ?>
-
-    <!-- js section -->
     <script src="main.js"></script>
 </body>
 

@@ -210,8 +210,6 @@
 
     <!-- footer section -->
     <?php include('footer.php') ?>
-
-    <!-- js section -->
     <script src="main.js"></script>
 </body>
 

@@ -208,10 +208,8 @@
     <!-- cta section -->
     <?php include('cta.php') ?>
 
-    <!-- footer section -->
+    <!-- footer sesction -->
     <?php include('footer.php') ?>
-
-    <!-- js section -->
     <script src="main.js"></script>
 </body>
 

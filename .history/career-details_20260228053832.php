@@ -29,7 +29,7 @@
     </section>
 
 
-    <!-- job details section -->
+    <!-- details section -->
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-6 lg:px-12">
             <div class="grid lg:grid-cols-12 gap-12 lg:gap-16">
@@ -245,11 +245,8 @@
     <!-- cta section -->
     <?php include('cta.php') ?>
 
-    <!-- footer section -->
     <?php include('footer.php') ?>
 
-
-    <!-- js section -->
     <script src="main.js"></script>
 </body>
 

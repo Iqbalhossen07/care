@@ -1,10 +1,9 @@
 <?php include('head.php') ?>
 
 <body class="font-body text-gray-600 antialiased bg-white">
-    <!-- header section -->
+    <!-- header secton -->
     <?php include('header.php') ?>
 
-    <!-- breadcrumb section -->
     <section class="relative h-[250px] flex items-center overflow-hidden bg-darkText">
         <div class="absolute inset-0 z-0">
             <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=1500&q=80"
@@ -28,8 +27,6 @@
         </div>
     </section>
 
-
-    <!-- job details section -->
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-6 lg:px-12">
             <div class="grid lg:grid-cols-12 gap-12 lg:gap-16">
@@ -242,14 +239,10 @@
         </div>
     </section>
 
-    <!-- cta section -->
     <?php include('cta.php') ?>
 
-    <!-- footer section -->
     <?php include('footer.php') ?>
 
-
-    <!-- js section -->
     <script src="main.js"></script>
 </body>
 

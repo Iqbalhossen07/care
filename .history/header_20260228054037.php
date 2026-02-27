@@ -12,7 +12,7 @@
                  <a href="services.php"
                      class="text-gray-700 hover:text-brand font-medium transition-colors">Services</a>
                  <a href="careers.php" class="text-gray-700 hover:text-brand font-medium transition-colors">Careers</a>
-                 <a href="blogs.php" class="text-gray-700 hover:text-brand font-medium transition-colors">Blogs</a>
+                 <a href="careers.php" class="text-gray-700 hover:text-brand font-medium transition-colors">Careers</a>
                  <a href="#contact"
                      class="bg-brand text-white px-6 py-2.5 rounded-md font-bold hover:bg-brandDark shadow-md shadow-black/20 hover:shadow-lg hover:shadow-black/30 transition-all duration-300 transform hover:-translate-y-1">
                      Get Support
@@ -42,9 +42,6 @@
              <a href="careers.php"
                  class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-brand hover:bg-lightBg rounded-lg">
                  Careers</a>
-             <a href="blogs.php"
-                 class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-brand hover:bg-lightBg rounded-lg">
-                 Blogs</a>
              <a href="#contact"
                  class="block px-3 py-2 text-base font-bold text-white bg-brand text-center rounded-lg mt-4 shadow-md shadow-black/20 hover:shadow-lg hover:shadow-black/30 transition-all duration-300 transform hover:-translate-y-1">Get
                  Support</a>
