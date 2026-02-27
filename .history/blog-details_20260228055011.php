@@ -25,8 +25,6 @@
                 class="font-heading text-3xl md:text-5xl font-bold text-white mb-2 tracking-tight max-w-4xl leading-tight">
                 How to Maintain Mental Wellbeing in Old Age
             </h1>
-            <p class="text-gray-300 text-lg max-w-2xl">Read our latest articles about health, home care, and wellbeing.
-            </p>
         </div>
     </section>
 
@@ -45,28 +43,25 @@
                     </div>
 
                     <div class="flex flex-wrap items-center gap-6 mb-8 pb-8 border-b border-gray-100">
-
-                        <div class="text-gray-500 text-sm flex items-center gap-2">
-                            <div class="w-8 h-8 rounded-lg bg-lightBg flex items-center justify-center">
-                                <svg class="w-4 h-4 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                                    stroke-width="2">
-                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                                    <line x1="16" y1="2" x2="16" y2="6"></line>
-                                    <line x1="8" y1="2" x2="8" y2="6"></line>
-                                    <line x1="3" y1="10" x2="21" y2="10"></line>
-                                </svg>
-                            </div>
-                            <span class="font-medium text-darkText tracking-tight">Feb 28, 2026</span>
+                        <div class="flex items-center gap-3">
+                            <div
+                                class="w-10 h-10 rounded-full bg-brand/10 flex items-center justify-center text-brand font-bold">
+                                C</div>
+                            <span class="text-darkText font-bold text-sm">By Careline Editor</span>
                         </div>
-                        <div class="text-gray-500 text-sm flex items-center gap-2">
-                            <div class="w-8 h-8 rounded-lg bg-lightBg flex items-center justify-center">
-                                <svg class="w-4 h-4 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                                    stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                                </svg>
-                            </div>
-                            <span class="font-medium text-darkText">Admin</span>
+                        <div class="text-gray-400 text-sm flex items-center gap-2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
+                                </path>
+                            </svg>
+                            Feb 28, 2026
+                        </div>
+                        <div class="text-gray-400 text-sm flex items-center gap-2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            5 Min Read
                         </div>
                     </div>
 
@@ -98,7 +93,18 @@
                             our clients feel valued and heard every single day.</p>
                     </div>
 
-
+                    <div
+                        class="mt-16 pt-8 border-t border-gray-100 flex flex-col md:flex-row justify-between items-center gap-6">
+                        <p class="font-bold text-darkText uppercase tracking-widest text-sm">Share this Article:</p>
+                        <div class="flex gap-4">
+                            <a href="#"
+                                class="w-10 h-10 rounded-full bg-lightBg flex items-center justify-center hover:bg-brand hover:text-white transition-all">FB</a>
+                            <a href="#"
+                                class="w-10 h-10 rounded-full bg-lightBg flex items-center justify-center hover:bg-brand hover:text-white transition-all">TW</a>
+                            <a href="#"
+                                class="w-10 h-10 rounded-full bg-lightBg flex items-center justify-center hover:bg-brand hover:text-white transition-all">LN</a>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="lg:col-span-4 space-y-12">
@@ -148,29 +154,19 @@
                         </div>
                     </div>
 
-                    <div class="bg-brand p-10 rounded-[2.5rem] text-white relative overflow-hidden group">
-                        <div
-                            class="absolute -bottom-10 -left-10 w-40 h-40 bg-white/10 rounded-full blur-3xl transition-all group-hover:scale-110">
-                        </div>
-
-                        <div class="relative z-10 text-center">
-                            <div
-                                class="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-6">
-                                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z">
-                                    </path>
-                                </svg>
-                            </div>
-                            <h4 class="font-heading text-2xl font-bold mb-3">Need Expert Advice?</h4>
-                            <p class="text-white/80 text-sm mb-8 leading-relaxed">Book a free 15-minute consultation
-                                with our care specialists today.</p>
-
-                            <a href="contact.php"
-                                class="block w-full py-4 bg-white text-brand font-bold rounded-xl shadow-[0_15px_30px_-5px_rgba(0,0,0,0.2)] hover:shadow-[0_20px_40px_-5px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-all duration-300 text-center">
-                                Free Consultation
-                            </a>
-                        </div>
+                    <div class="bg-darkText p-10 rounded-[2.5rem] text-white relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-32 h-32 bg-brand/10 rounded-full blur-3xl"></div>
+                        <h4 class="font-heading text-2xl font-bold mb-4 relative z-10">Stay Updated</h4>
+                        <p class="text-gray-400 text-sm mb-8 relative z-10">Get the latest care tips and company news
+                            delivered to your inbox.</p>
+                        <form class="space-y-4 relative z-10">
+                            <input type="email" placeholder="Your Email"
+                                class="w-full px-5 py-3 rounded-xl bg-white/5 border border-white/10 outline-none focus:border-brand transition-all text-sm">
+                            <button
+                                class="w-full py-4 bg-brand text-white font-bold rounded-xl shadow-[0_15px_30px_-5px_rgba(0,0,0,0.5)] hover:shadow-[0_20px_40px_-5px_rgba(0,0,0,0.6)] hover:-translate-y-1 transition-all duration-300">
+                                Subscribe Now
+                            </button>
+                        </form>
                     </div>
                 </div>
 

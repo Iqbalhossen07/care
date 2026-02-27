@@ -25,8 +25,6 @@
                 class="font-heading text-3xl md:text-5xl font-bold text-white mb-2 tracking-tight max-w-4xl leading-tight">
                 How to Maintain Mental Wellbeing in Old Age
             </h1>
-            <p class="text-gray-300 text-lg max-w-2xl">Read our latest articles about health, home care, and wellbeing.
-            </p>
         </div>
     </section>
 
@@ -45,7 +43,12 @@
                     </div>
 
                     <div class="flex flex-wrap items-center gap-6 mb-8 pb-8 border-b border-gray-100">
-
+                        <div class="flex items-center gap-3">
+                            <div
+                                class="w-10 h-10 rounded-full bg-brand/10 flex items-center justify-center text-brand font-bold">
+                                C</div>
+                            <span class="text-darkText font-bold text-sm">By Careline Editor</span>
+                        </div>
                         <div class="text-gray-500 text-sm flex items-center gap-2">
                             <div class="w-8 h-8 rounded-lg bg-lightBg flex items-center justify-center">
                                 <svg class="w-4 h-4 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24"

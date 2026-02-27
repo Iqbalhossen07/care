@@ -25,8 +25,6 @@
                 class="font-heading text-3xl md:text-5xl font-bold text-white mb-2 tracking-tight max-w-4xl leading-tight">
                 How to Maintain Mental Wellbeing in Old Age
             </h1>
-            <p class="text-gray-300 text-lg max-w-2xl">Read our latest articles about health, home care, and wellbeing.
-            </p>
         </div>
     </section>
 
@@ -45,18 +43,19 @@
                     </div>
 
                     <div class="flex flex-wrap items-center gap-6 mb-8 pb-8 border-b border-gray-100">
-
-                        <div class="text-gray-500 text-sm flex items-center gap-2">
-                            <div class="w-8 h-8 rounded-lg bg-lightBg flex items-center justify-center">
-                                <svg class="w-4 h-4 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                                    stroke-width="2">
-                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                                    <line x1="16" y1="2" x2="16" y2="6"></line>
-                                    <line x1="8" y1="2" x2="8" y2="6"></line>
-                                    <line x1="3" y1="10" x2="21" y2="10"></line>
-                                </svg>
-                            </div>
-                            <span class="font-medium text-darkText tracking-tight">Feb 28, 2026</span>
+                        <div class="flex items-center gap-3">
+                            <div
+                                class="w-10 h-10 rounded-full bg-brand/10 flex items-center justify-center text-brand font-bold">
+                                C</div>
+                            <span class="text-darkText font-bold text-sm">By Careline Editor</span>
+                        </div>
+                        <div class="text-gray-400 text-sm flex items-center gap-2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
+                                </path>
+                            </svg>
+                            Feb 28, 2026
                         </div>
                         <div class="text-gray-500 text-sm flex items-center gap-2">
                             <div class="w-8 h-8 rounded-lg bg-lightBg flex items-center justify-center">
