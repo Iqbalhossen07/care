@@ -12,7 +12,7 @@
             <div class="absolute inset-0 bg-gradient-to-r from-darkText via-darkText/90 to-transparent"></div>
         </div>
 
-        <div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-10 w-full mt-20">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-10 w-full">
             <nav class="flex mb-4 text-sm font-medium">
                 <ol class="inline-flex items-center space-x-2">
                     <li><a href="index.php" class="text-gray-400 hover:text-brand transition-colors">Home</a></li>
@@ -22,7 +22,7 @@
                     <li class="text-brand font-bold uppercase tracking-widest text-[11px] md:text-sm">Care Worker</li>
                 </ol>
             </nav>
-            <h1 class="font-heading text-2xl md:text-4xl font-bold text-white mb-2 tracking-tight">Care Worker</h1>
+            <h1 class="font-heading text-2xl md:text-5xl font-bold text-white mb-2 tracking-tight">Care Worker</h1>
             <p class="text-gray-300 text-lg max-w-2xl">Start a rewarding career making a real difference in people's
                 lives every day.</p>
         </div>

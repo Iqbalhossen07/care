@@ -23,7 +23,7 @@
                     <li class="text-brand font-bold uppercase tracking-widest text-[11px] md:text-sm">Respite Care</li>
                 </ol>
             </nav>
-            <h1 class="font-heading text-2xl md:text-4xl font-bold text-white mb-2 tracking-tight">Respite Care Services
+            <h1 class="font-heading text-4xl md:text-4xl font-bold text-white mb-2 tracking-tight">Respite Care Services
             </h1>
             <p class="text-gray-300 text-lg max-w-2xl">Premium, compassionate care tailored to your everyday life,
                 ensuring independence at home.</p>

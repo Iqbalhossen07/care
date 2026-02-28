@@ -147,7 +147,7 @@
         <div class="max-w-4xl mx-auto px-6 lg:px-8">
             <div class="text-center mb-16">
 
-                <h1 class="font-heading text-2xl  md:text-4xl  font-bold text-darkText mb-4 md:mb-6 tracking-[-0.03em]">
+                <h1 class="font-heading text-2xl  md:text-5xl  font-bold text-darkText mb-4 md:mb-6 tracking-[-0.03em]">
                     Frequently
                     <span class="text-brand relative ">Asked
                         <svg class="absolute -bottom-1.5 left-0 w-full h-1.5 md:h-2 text-brand/30" viewBox="0 0 100 10"

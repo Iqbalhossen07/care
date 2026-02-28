@@ -3,14 +3,14 @@
 <body class="font-body text-gray-600 antialiased bg-white">
     <?php include('header.php') ?>
 
-    <section class="relative h-[350px] flex items-center overflow-hidden bg-darkText ">
+    <section class="relative h-[250px] flex items-center overflow-hidden bg-darkText ">
         <div class="absolute inset-0 z-0">
             <img src="https://images.unsplash.com/photo-1516706562779-ad3fd557341b?auto=format&fit=crop&w=1500&q=80"
                 class="w-full h-full object-cover opacity-30" alt="About Careline">
             <div class="absolute inset-0 bg-gradient-to-r from-darkText via-darkText/90 to-transparent"></div>
         </div>
 
-        <div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-10 w-full  mt-20">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-10 w-full mt-32 ">
             <nav class="flex mb-4 text-sm font-medium">
                 <ol class="inline-flex items-center space-x-2">
                     <li><a href="index.php" class="text-gray-400 hover:text-brand transition-colors">Home</a></li>
@@ -18,7 +18,7 @@
                     <li class="text-brand font-bold uppercase tracking-widest text-[11px] md:text-sm">About Us</li>
                 </ol>
             </nav>
-            <h1 class="font-heading text-2xl md:text-4xl font-bold text-white mb-2 tracking-tight">Our Mission & Heart
+            <h1 class="font-heading text-4xl md:text-5xl font-bold text-white mb-2 tracking-tight">Our Mission & Heart
             </h1>
             <p class="text-gray-300 text-lg max-w-2xl">Dedicated to providing compassionate care in the comfort of your
                 home.</p>
@@ -42,7 +42,7 @@
                     <div>
 
                         <h1
-                            class="font-heading text-2xl  md:text-4xl  font-bold text-darkText mb-4 md:mb-6 tracking-[-0.03em]">
+                            class="font-heading text-2xl  md:text-5xl  font-bold text-darkText mb-4 md:mb-6 tracking-[-0.03em]">
                             Caring is not
                             <span class="text-brand relative ">just our job,
                                 <svg class="absolute -bottom-1.5 left-0 w-full h-1.5 md:h-2 text-brand/30"
@@ -84,7 +84,7 @@
 
     <section class="py-24 bg-lightBg">
         <div class="max-w-7xl mx-auto px-6 lg:px-12 text-center">
-            <h1 class="font-heading text-2xl  md:text-4xl  font-bold text-darkText mb-4 md:mb-6 tracking-[-0.03em]">
+            <h1 class="font-heading text-2xl  md:text-5xl  font-bold text-darkText mb-4 md:mb-6 tracking-[-0.03em]">
                 The Values
                 <span class="text-brand relative ">We
                     <svg class="absolute -bottom-1.5 left-0 w-full h-1.5 md:h-2 text-brand/30" viewBox="0 0 100 10"
@@ -147,7 +147,7 @@
         <div class="max-w-4xl mx-auto px-6 lg:px-8">
             <div class="text-center mb-16">
 
-                <h1 class="font-heading text-2xl  md:text-4xl  font-bold text-darkText mb-4 md:mb-6 tracking-[-0.03em]">
+                <h1 class="font-heading text-2xl  md:text-5xl  font-bold text-darkText mb-4 md:mb-6 tracking-[-0.03em]">
                     Frequently
                     <span class="text-brand relative ">Asked
                         <svg class="absolute -bottom-1.5 left-0 w-full h-1.5 md:h-2 text-brand/30" viewBox="0 0 100 10"

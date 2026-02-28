@@ -38,7 +38,7 @@
                     </li>
                 </ol>
             </nav>
-            <h1 class="font-heading text-2xl md:text-4xl font-bold text-white mb-2">Our Specialist Services</h1>
+            <h1 class="font-heading text-4xl md:text-4xl font-bold text-white mb-2">Our Specialist Services</h1>
             <p class="text-gray-300 text-lg max-w-2xl">Premium, compassionate care tailored to your everyday life,
                 ensuring independence at home.</p>
         </div>

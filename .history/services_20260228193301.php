@@ -11,7 +11,7 @@
             <div class="absolute inset-0 bg-gradient-to-r from-darkText via-darkText/80 to-transparent"></div>
         </div>
 
-        <div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-10 w-full mt-20">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-10 w-full">
             <nav class="flex mb-4" aria-label="Breadcrumb">
                 <ol class="inline-flex items-center space-x-1 md:space-x-3 text-sm font-medium">
                     <li class="inline-flex items-center">
@@ -38,7 +38,7 @@
                     </li>
                 </ol>
             </nav>
-            <h1 class="font-heading text-2xl md:text-4xl font-bold text-white mb-2">Our Specialist Services</h1>
+            <h1 class="font-heading text-4xl md:text-5xl font-bold text-white mb-2">Our Specialist Services</h1>
             <p class="text-gray-300 text-lg max-w-2xl">Premium, compassionate care tailored to your everyday life,
                 ensuring independence at home.</p>
         </div>
@@ -61,7 +61,7 @@
                         </div>
                     </div>
                     <div class="flex-1 flex flex-col p-6">
-                        <h3 class="font-heading text-xl font-bold text-darkText mb-3 uppercase tracking-tight">Respite
+                        <h3 class="font-heading text-2xl font-bold text-darkText mb-3 uppercase tracking-tight">Respite
                             Care Services</h3>
                         <p class="text-gray-600 mb-8 text-sm md:text-base leading-relaxed line-clamp-2">
                             Temporary, high-quality care to provide family caregivers a much-needed break, ensuring your
@@ -85,7 +85,7 @@
                         </div>
                     </div>
                     <div class="flex-1 flex flex-col p-6">
-                        <h3 class="font-heading text-xl font-bold text-darkText mb-3 uppercase tracking-tight">Home
+                        <h3 class="font-heading text-2xl font-bold text-darkText mb-3 uppercase tracking-tight">Home
                             Care Services</h3>
                         <p class="text-gray-600 mb-8 text-sm md:text-base leading-relaxed line-clamp-2">
                             Compassionate daily assistance tailored to your specific needs, enabling you to live happily
@@ -109,7 +109,7 @@
                         </div>
                     </div>
                     <div class="flex-1 flex flex-col p-6">
-                        <h3 class="font-heading text-xl font-bold text-darkText mb-3 uppercase tracking-tight">Dementia
+                        <h3 class="font-heading text-2xl font-bold text-darkText mb-3 uppercase tracking-tight">Dementia
                             Care</h3>
                         <p class="text-gray-600 mb-8 text-sm md:text-base leading-relaxed line-clamp-2">
                             Specialized support for those living with memory loss, focusing on safety, dignity, and

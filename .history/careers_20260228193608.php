@@ -176,7 +176,7 @@
                                     Office</span>
                             </div>
                             <h3
-                                class="font-heading text-xl font-bold text-darkText group-hover:text-brand transition-colors uppercase tracking-tight mb-3">
+                                class="font-heading text-2xl font-bold text-darkText group-hover:text-brand transition-colors uppercase tracking-tight mb-3">
                                 Office Support</h3>
                             <p class="text-gray-500 text-sm md:text-base max-w-2xl">Handle administrative duties, answer
                                 phone calls, and assist with staff scheduling and compliance documentation.</p>

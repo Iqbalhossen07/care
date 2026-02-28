@@ -12,7 +12,7 @@
             <div class="absolute inset-0 bg-gradient-to-r from-darkText via-darkText/90 to-transparent"></div>
         </div>
 
-        <div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-10 w-full mt-20">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-10 w-full mt-">
             <nav class="flex mb-4 text-sm font-medium">
                 <ol class="inline-flex items-center space-x-2">
                     <li><a href="index.php" class="text-gray-400 hover:text-brand transition-colors">Home</a></li>
@@ -20,7 +20,7 @@
                     <li class="text-brand font-bold uppercase tracking-widest text-[11px] md:text-sm">Careers</li>
                 </ol>
             </nav>
-            <h1 class="font-heading text-2xl md:text-4xl font-bold text-white mb-2 tracking-tight">Join Our
+            <h1 class="font-heading text-4xl md:text-5xl font-bold text-white mb-2 tracking-tight">Join Our
                 Compassionate Team</h1>
             <p class="text-gray-300 text-lg max-w-2xl">Start a rewarding career making a real difference in people's
                 lives every day.</p>
@@ -102,7 +102,7 @@
                                     UK</span>
                             </div>
                             <h3
-                                class="font-heading text-xl font-bold text-darkText group-hover:text-brand transition-colors uppercase tracking-tight mb-3">
+                                class="font-heading text-2xl font-bold text-darkText group-hover:text-brand transition-colors uppercase tracking-tight mb-3">
                                 Care Worker</h3>
                             <p class="text-gray-500 text-sm md:text-base max-w-2xl">Support our clients with their daily
                                 routines, including personal care, meal preparation, and companionship. No experience
@@ -139,7 +139,7 @@
                                     UK</span>
                             </div>
                             <h3
-                                class="font-heading text-xl font-bold text-darkText group-hover:text-brand transition-colors uppercase tracking-tight mb-3">
+                                class="font-heading text-2xl font-bold text-darkText group-hover:text-brand transition-colors uppercase tracking-tight mb-3">
                                 Senior Care Supervisor</h3>
                             <p class="text-gray-500 text-sm md:text-base max-w-2xl">Oversee care delivery, conduct
                                 assessments, and mentor junior staff. Requires NVQ Level 3 in Health and Social Care.
@@ -176,7 +176,7 @@
                                     Office</span>
                             </div>
                             <h3
-                                class="font-heading text-xl font-bold text-darkText group-hover:text-brand transition-colors uppercase tracking-tight mb-3">
+                                class="font-heading text-2xl font-bold text-darkText group-hover:text-brand transition-colors uppercase tracking-tight mb-3">
                                 Office Support</h3>
                             <p class="text-gray-500 text-sm md:text-base max-w-2xl">Handle administrative duties, answer
                                 phone calls, and assist with staff scheduling and compliance documentation.</p>
