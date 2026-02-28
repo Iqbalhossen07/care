@@ -102,62 +102,29 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // contact map
 
-// const mapBtn = document.getElementById("map-switch-btn");
-// const normalMap = document.getElementById("normal-map");
-// const streetMap = document.getElementById("street-view-map");
-// const btnText = document.getElementById("btn-text");
-// const btnSub = document.getElementById("btn-subtext");
+const mapBtn = document.getElementById("map-switch-btn");
+const normalMap = document.getElementById("normal-map");
+const streetMap = document.getElementById("street-view-map");
+const btnText = document.getElementById("btn-text");
+const btnSub = document.getElementById("btn-subtext");
 
-// if (mapBtn) {
-//   let isStreetView = false;
-//   mapBtn.addEventListener("click", () => {
-//     if (!isStreetView) {
-//       // Switch to Street View
-//       normalMap.classList.add("opacity-0", "pointer-events-none");
-//       streetMap.classList.remove("opacity-0", "pointer-events-none");
-//       btnText.innerText = "Back to Regular Map";
-//       btnSub.innerText = "Location View";
-//       isStreetView = true;
-//     } else {
-//       // Switch back to Normal Map
-//       streetMap.classList.add("opacity-0", "pointer-events-none");
-//       normalMap.classList.remove("opacity-0", "pointer-events-none");
-//       btnText.innerText = "Switch to Street View";
-//       btnSub.innerText = "Interactive";
-//       isStreetView = false;
-//     }
-//   });
-// }
-
-
-// about faq
-
- document.querySelectorAll(".faq-btn").forEach((button) => {
-   button.addEventListener("click", () => {
-     const accordionItem = button.parentElement;
-     const answer = button.nextElementSibling;
-     const icon = button.querySelector(".faq-icon");
-
-     // Close other items
-     document.querySelectorAll(".faq-answer").forEach((item) => {
-       if (item !== answer) {
-         item.style.maxHeight = null;
-         item.parentElement.classList.remove("border-brand/30", "shadow-lg");
-         item.previousElementSibling.querySelector(
-           ".faq-icon",
-         ).style.transform = "rotate(0deg)";
-       }
-     });
-
-     // Toggle current item
-     if (answer.style.maxHeight) {
-       answer.style.maxHeight = null;
-       accordionItem.classList.remove("border-brand/30", "shadow-lg");
-       icon.style.transform = "rotate(0deg)";
-     } else {
-       answer.style.maxHeight = answer.scrollHeight + "px";
-       accordionItem.classList.add("border-brand/30", "shadow-lg");
-       icon.style.transform = "rotate(180deg)";
-     }
-   });
- });
+if (mapBtn) {
+  let isStreetView = false;
+  mapBtn.addEventListener("click", () => {
+    if (!isStreetView) {
+      // Switch to Street View
+      normalMap.classList.add("opacity-0", "pointer-events-none");
+      streetMap.classList.remove("opacity-0", "pointer-events-none");
+      btnText.innerText = "Back to Regular Map";
+      btnSub.innerText = "Location View";
+      isStreetView = true;
+    } else {
+      // Switch back to Normal Map
+      streetMap.classList.add("opacity-0", "pointer-events-none");
+      normalMap.classList.remove("opacity-0", "pointer-events-none");
+      btnText.innerText = "Switch to Street View";
+      btnSub.innerText = "Interactive";
+      isStreetView = false;
+    }
+  });
+}

@@ -130,34 +130,4 @@ document.addEventListener("DOMContentLoaded", function () {
 // }
 
 
-// about faq
-
- document.querySelectorAll(".faq-btn").forEach((button) => {
-   button.addEventListener("click", () => {
-     const accordionItem = button.parentElement;
-     const answer = button.nextElementSibling;
-     const icon = button.querySelector(".faq-icon");
-
-     // Close other items
-     document.querySelectorAll(".faq-answer").forEach((item) => {
-       if (item !== answer) {
-         item.style.maxHeight = null;
-         item.parentElement.classList.remove("border-brand/30", "shadow-lg");
-         item.previousElementSibling.querySelector(
-           ".faq-icon",
-         ).style.transform = "rotate(0deg)";
-       }
-     });
-
-     // Toggle current item
-     if (answer.style.maxHeight) {
-       answer.style.maxHeight = null;
-       accordionItem.classList.remove("border-brand/30", "shadow-lg");
-       icon.style.transform = "rotate(0deg)";
-     } else {
-       answer.style.maxHeight = answer.scrollHeight + "px";
-       accordionItem.classList.add("border-brand/30", "shadow-lg");
-       icon.style.transform = "rotate(180deg)";
-     }
-   });
- });
+// about 

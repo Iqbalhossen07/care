@@ -34,7 +34,7 @@
          <div class="px-4 pt-2 pb-6 space-y-2">
              <a href="index.php"
                  class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-brand hover:bg-lightBg rounded-lg">Home</a>
-             <a href="about.php"
+             <a href="#about"
                  class="block px-3 py-3 text-base font-medium text-gray-700 hover:text-brand hover:bg-lightBg rounded-lg">About
                  Us</a>
              <a href="services.php"
