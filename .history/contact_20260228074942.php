@@ -105,7 +105,7 @@
                             class="w-full px-5 py-3.5 rounded-xl border border-gray-200 outline-none focus:border-brand transition-all bg-lightBg/30"></textarea>
 
                         <button type="submit"
-                            class="w-full py-2 md:py-3 bg-brand text-white font-bold rounded-xl shadow-[0_15px_30px_-5px_rgba(0,0,0,0.25)] hover:shadow-[0_20px_40px_-5px_rgba(0,0,0,0.35)] transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-2">
+                            class="w-full md:py-3 bg-brand text-white font-bold rounded-xl shadow-[0_15px_30px_-5px_rgba(0,0,0,0.25)] hover:shadow-[0_20px_40px_-5px_rgba(0,0,0,0.35)] transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-2">
                             Send Message
                             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"

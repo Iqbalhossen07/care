@@ -734,7 +734,7 @@
                             Loneliness can have severe physical effects. Discover why regular social interaction and
                             professional companionship are vital for the elderly.
                         </p>
-                        <a href="blog-details.php"
+                        <a href="#"
                             class="mt-auto self-start inline-flex items-center justify-center px-5 py-2.5 border border-transparent text-sm font-bold rounded-md text-white bg-brand hover:bg-brandDark shadow-md shadow-black/20 hover:shadow-lg hover:shadow-black/30 transition-all duration-300 transform hover:-translate-y-1 group/btn">
                             Read Article
                             <span
@@ -773,7 +773,7 @@
                             A behind-the-scenes look at our rigorous recruitment process, continuous training programs,
                             and dedication to excellence in caregiving.
                         </p>
-                        <a href="blog-details.php"
+                        <a href="#"
                             class="mt-auto self-start inline-flex items-center justify-center px-5 py-2.5 border border-transparent text-sm font-bold rounded-md text-white bg-brand hover:bg-brandDark shadow-md shadow-black/20 hover:shadow-lg hover:shadow-black/30 transition-all duration-300 transform hover:-translate-y-1 group/btn">
                             Read Article
                             <span

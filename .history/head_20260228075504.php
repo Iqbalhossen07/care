@@ -8,7 +8,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon.PNG" type="image/x-icon">
+    link
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
     tailwind.config = {
