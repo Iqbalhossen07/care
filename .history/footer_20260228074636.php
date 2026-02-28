@@ -3,7 +3,7 @@
           <div class="grid grid-cols-1 md:grid-cols-4 gap-12 border-b border-gray-800 pb-12 mb-8">
               <div class="col-span-1 md:col-span-1 flex flex-col items-start">
                   <a href="index.php" class="group inline-flex items-center mb-6">
-                      <div class="w-48 md:w-56 h-auto ">
+                      <div class="w-48 md:w-56 h-auto transition-transform duration-300 group-hover:scale-105">
                           <img src="img/logo.png" alt="Community Careline Services (Medway) Ltd"
                               class="w-full h-full object-contain brightness-0 invert">
                       </div>

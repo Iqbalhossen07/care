@@ -1,17 +1,13 @@
   <footer class="bg-[#111827] text-gray-300 py-16">
       <div class="max-w-7xl mx-auto px-6 lg:px-8">
           <div class="grid grid-cols-1 md:grid-cols-4 gap-12 border-b border-gray-800 pb-12 mb-8">
-              <div class="col-span-1 md:col-span-1 flex flex-col items-start">
-                  <a href="index.php" class="group inline-flex items-center mb-6">
-                      <div class="w-48 md:w-56 h-auto ">
-                          <img src="img/logo.png" alt="Community Careline Services (Medway) Ltd"
-                              class="w-full h-full object-contain brightness-0 invert">
-                      </div>
+              <div class="col-span-1 md:col-span-1">
+                  <a href="#" class="font-heading font-bold text-3xl text-white flex items-center gap-2 mb-4">
+                      <span class="w-6 h-6 rounded-full bg-brand inline-block"></span>
+                      Careline
                   </a>
-
-                  <p class="text-sm text-gray-400 leading-relaxed max-w-xs">
-                      Premium home support helping families across the United Kingdom maintain independence and joy.
-                  </p>
+                  <p class="text-sm text-gray-400 mb-6">Premium home support helping families across the United
+                      Kingdom maintain independence and joy.</p>
               </div>
 
               <div>

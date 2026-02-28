@@ -1,11 +1,8 @@
  <header class="bg-white/95 backdrop-blur-sm border-b border-gray-100 sticky top-0 z-50">
      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
          <div class="flex justify-between items-center h-20">
-             <a href="index.php" class="group inline-flex items-center py-2">
-                 <div class="w-48 md:w-64 h-auto overflow-hidden">
-                     <img src="img/logo.png" alt="Community Careline Services (Medway) Ltd"
-                         class="w-full h-full object-contain filter drop-shadow-sm">
-                 </div>
+             <a href="#" class="font-heading font-bold text-3xl text-darkText flex items-center gap-2">
+                 <img src="img/" alt="">
              </a>
 
              <nav class="hidden md:flex space-x-8 items-center">
