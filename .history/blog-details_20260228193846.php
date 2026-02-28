@@ -24,7 +24,7 @@
                 </ol>
             </nav>
             <h1
-                class="font-heading text-2xl md:text-4xl font-bold text-white mb-2 tracking-tight max-w-4xl leading-tight">
+                class="font-heading text-3xl md:text-4xl font-bold text-white mb-2 tracking-tight max-w-4xl leading-tight">
                 How to Maintain Mental Wellbeing in Old Age
             </h1>
             <p class="text-gray-300 text-lg max-w-2xl">Read our latest articles about health, home care, and wellbeing.

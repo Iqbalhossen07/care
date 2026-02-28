@@ -20,7 +20,7 @@
                     <li class="text-brand font-bold uppercase tracking-widest text-[11px] md:text-sm">Contact Us</li>
                 </ol>
             </nav>
-            <h1 class="font-heading text-2xl md:text-4xl font-bold text-white mb-2 tracking-tight">Get In Touch</h1>
+            <h1 class="font-heading text-4xl md:text-5xl font-bold text-white mb-2 tracking-tight">Get In Touch</h1>
             <p class="text-gray-300 text-lg max-w-2xl">We are here to help you and your family. Reach out to us anytime.
             </p>
         </div>
