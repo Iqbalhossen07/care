@@ -22,7 +22,8 @@
                 },
                 fontFamily: {
                     heading: ['"PT Serif"', 'serif'],
-                    body: ['"DM Sans"', 'sans-serif'],
+                    body: ['"PT Serif"', 'serif'],
+                    // body: ['"DM Sans"', 'sans-serif'],
                 }
             }
         }

@@ -1,24 +1,76 @@
-const btn = document.getElementById("mobile-menu-btn");
-const menu = document.getElementById("mobile-menu");
-const icon = document.getElementById("menu-icon");
+document.addEventListener("DOMContentLoaded", function () {
+  // ==========================================
+  // ১. Mobile Menu Toggle Logic
+  // ==========================================
+  const mobileMenuBtn = document.getElementById("mobile-menu-btn");
+  const mobileMenu = document.getElementById("mobile-menu");
+  const menuIcon = document.getElementById("menu-icon");
 
-btn.addEventListener("click", () => {
-  menu.classList.toggle("hidden");
-  // Toggle hamburger / close icon
-  if (menu.classList.contains("hidden")) {
-    icon.setAttribute("d", "M4 6h16M4 12h16M4 18h16");
-  } else {
-    icon.setAttribute("d", "M6 18L18 6M6 6l12 12");
+  if (mobileMenuBtn && mobileMenu) {
+    mobileMenuBtn.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+
+      // আইকন চেঞ্জ করা (Hamburger থেকে Cross)
+      if (mobileMenu.classList.contains("hidden")) {
+        menuIcon.setAttribute("d", "M4 6h16M4 12h16M4 18h16"); // 3 lines
+      } else {
+        menuIcon.setAttribute("d", "M6 18L18 6M6 6l12 12"); // X mark
+      }
+    });
   }
-});
 
-// Close mobile menu when a link is clicked
-const mobileLinks = menu.querySelectorAll("a");
-mobileLinks.forEach((link) => {
-  link.addEventListener("click", () => {
-    menu.classList.add("hidden");
-    icon.setAttribute("d", "M4 6h16M4 12h16M4 18h16");
-  });
+  // ==========================================
+  // ২. Hero Slider Logic
+  // ==========================================
+  const slides = document.querySelectorAll(".slide");
+  const dots = document.querySelectorAll(".slide-dot");
+
+  if (slides.length > 0) {
+    let currentSlide = 0;
+    const totalSlides = slides.length;
+
+    function showSlide(index) {
+      // সব স্লাইড লুকিয়ে ফেলা
+      slides.forEach((slide) => {
+        slide.classList.remove("opacity-100", "z-10");
+        slide.classList.add("opacity-0", "z-0");
+      });
+
+      // সব ডট রিসেট করা
+      dots.forEach((dot) => {
+        dot.classList.remove("bg-brand", "w-8");
+        dot.classList.add("bg-white/50", "w-3");
+      });
+
+      // বর্তমান স্লাইড দেখানো
+      slides[index].classList.remove("opacity-0", "z-0");
+      slides[index].classList.add("opacity-100", "z-10");
+
+      // বর্তমান ডট অ্যাকটিভ করা
+      if (dots[index]) {
+        dots[index].classList.remove("bg-white/50", "w-3");
+        dots[index].classList.add("bg-brand", "w-8");
+      }
+    }
+
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % totalSlides;
+      showSlide(currentSlide);
+    }
+
+    // প্রতি ৫ সেকেন্ডে অটো স্লাইড হবে
+    let slideInterval = setInterval(nextSlide, 5000);
+
+    // ডটে ক্লিক করলে নির্দিষ্ট স্লাইডে যাওয়া
+    dots.forEach((dot, index) => {
+      dot.addEventListener("click", () => {
+        clearInterval(slideInterval); // ক্লিক করলে অটো স্লাইড একটু পজ হবে
+        currentSlide = index;
+        showSlide(currentSlide);
+        slideInterval = setInterval(nextSlide, 5000); // আবার অটো স্লাইড শুরু হবে
+      });
+    });
+  }
 });
 
 // Job Filtering Logic
@@ -129,35 +181,33 @@ document.addEventListener("DOMContentLoaded", function () {
 //   });
 // }
 
-
 // about faq
 
- document.querySelectorAll(".faq-btn").forEach((button) => {
-   button.addEventListener("click", () => {
-     const accordionItem = button.parentElement;
-     const answer = button.nextElementSibling;
-     const icon = button.querySelector(".faq-icon");
+document.querySelectorAll(".faq-btn").forEach((button) => {
+  button.addEventListener("click", () => {
+    const accordionItem = button.parentElement;
+    const answer = button.nextElementSibling;
+    const icon = button.querySelector(".faq-icon");
 
-     // Close other items
-     document.querySelectorAll(".faq-answer").forEach((item) => {
-       if (item !== answer) {
-         item.style.maxHeight = null;
-         item.parentElement.classList.remove("border-brand/30", "shadow-lg");
-         item.previousElementSibling.querySelector(
-           ".faq-icon",
-         ).style.transform = "rotate(0deg)";
-       }
-     });
+    // Close other items
+    document.querySelectorAll(".faq-answer").forEach((item) => {
+      if (item !== answer) {
+        item.style.maxHeight = null;
+        item.parentElement.classList.remove("border-brand/30", "shadow-lg");
+        item.previousElementSibling.querySelector(".faq-icon").style.transform =
+          "rotate(0deg)";
+      }
+    });
 
-     // Toggle current item
-     if (answer.style.maxHeight) {
-       answer.style.maxHeight = null;
-       accordionItem.classList.remove("border-brand/30", "shadow-lg");
-       icon.style.transform = "rotate(0deg)";
-     } else {
-       answer.style.maxHeight = answer.scrollHeight + "px";
-       accordionItem.classList.add("border-brand/30", "shadow-lg");
-       icon.style.transform = "rotate(180deg)";
-     }
-   });
- });
+    // Toggle current item
+    if (answer.style.maxHeight) {
+      answer.style.maxHeight = null;
+      accordionItem.classList.remove("border-brand/30", "shadow-lg");
+      icon.style.transform = "rotate(0deg)";
+    } else {
+      answer.style.maxHeight = answer.scrollHeight + "px";
+      accordionItem.classList.add("border-brand/30", "shadow-lg");
+      icon.style.transform = "rotate(180deg)";
+    }
+  });
+});

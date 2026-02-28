@@ -6,118 +6,91 @@
 
 
     <!-- hero section  -->
-    <section id="home" class="relative bg-white pt-12 pb-20 md:pt-16 md:pb-32 overflow-hidden">
-        <div class="absolute inset-0 pointer-events-none opacity-20" aria-hidden="true">
-            <svg class="absolute top-0 right-0 transform translate-x-1/3 -translate-y-1/3" width="600" height="600"
-                fill="none" viewBox="0 0 600 600">
-                <circle cx="300" cy="300" r="300" fill="url(#brandGradient1)" />
-                <defs>
-                    <radialGradient id="brandGradient1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
-                        gradientTransform="translate(300 300) rotate(90) scale(300)">
-                        <stop stop-color="#8cd424" />
-                        <stop offset="1" stop-color="white" stop-opacity="0" />
-                    </radialGradient>
-                </defs>
-            </svg>
-        </div>
+    <section id="home"
+        class="relative h-[80vh] md:h-[100vh] min-h-[500px] md:min-h-[650px] overflow-hidden bg-darkText">
 
-        <div class="absolute inset-0 pointer-events-none opacity-20" aria-hidden="true">
-            <svg class="absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2" width="600" height="600"
-                fill="none" viewBox="0 0 600 600">
-                <circle cx="300" cy="300" r="300" fill="url(#brandGradient2)" />
-                <defs>
-                    <radialGradient id="brandGradient2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
-                        gradientTransform="translate(300 300) rotate(90) scale(300)">
-                        <stop stop-color="#E9F7CD" />
-                        <stop offset="1" stop-color="white" stop-opacity="0" />
-                    </radialGradient>
-                </defs>
-            </svg>
-            <div
-                class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDQwIDQwIj48ZyBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiM4Y2Q0MjQiIGZpbGwtb3BhY2l0eT0iMC4wNSI+PHBhdGggZD0iTTAgMGg0MHY0MEgwVjB6bTIwIDIwaDIwdjIwSDIWMjB6TTAgMjBoMjB2MjBIMFYyMHoyMCAwaDIwdjIwSDIwVjB6Ii8+PC9nPjwvZz48L3N2Zz4=')] opacity-30">
-            </div>
-        </div>
+        <div id="hero-slider" class="relative w-full h-full">
 
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 relative z-10">
-            <div class="grid md:grid-cols-12 gap-10 md:gap-12 lg:gap-16 items-center">
+            <div class="slide absolute inset-0 w-full h-full transition-opacity duration-1000 opacity-100 z-10">
+                <img src="img/s3.jpg" alt="Caregiver" class="absolute inset-0 w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent"></div>
 
-                <div class="md:col-span-6 text-left space-y-6 md:space-y-8">
-                    <div>
+                <div
+                    class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-center pt-28 md:pt-32">
+                    <div class="max-w-2xl">
                         <span
-                            class="inline-flex items-center gap-2 text-brandDark font-bold tracking-widest uppercase text-[10px] md:text-xs px-3 py-1.5 md:px-4 md:py-1.5 bg-brand/10 rounded-full mb-4 md:mb-5">
-                            <svg class="w-3 h-3 md:w-4 md:h-4" fill="currentColor" viewBox="0 0 20 20">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
+                            class="inline-flex items-center gap-2 text-white font-bold tracking-widest uppercase text-[10px] md:text-xs px-4 py-2 bg-brand/90 backdrop-blur-sm rounded-full mb-4 md:mb-6 shadow-lg">
                             Trusted UK Care Providers
                         </span>
-
                         <h1
-                            class="font-heading text-4xl sm:text-5xl lg:text-7xl leading-[1.15] font-bold text-darkText mb-4 md:mb-6 tracking-[-0.03em]">
-                            Get the help and
-                            <span class="text-brand relative ">home support
-                                <svg class="absolute -bottom-1.5 left-0 w-full h-1.5 md:h-2 text-brand/30"
-                                    viewBox="0 0 100 10" preserveAspectRatio="none">
-                                    <path d="M0 5 L100 5" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" />
-                                </svg>
-                            </span>
-                            you need.
+                            class="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4 md:mb-6 leading-[1.1]">
+                            Get the help and <span class="text-brand">home support</span> you need.
                         </h1>
 
-                        <p class="text-base text-justify md:text-lg lg:text-xl text-gray-600 leading-relaxed max-w-xl">
+
+
+
+                        <p class="text-base md:text-xl text-gray-200 mb-6 md:mb-8 leading-relaxed max-w-xl">
                             We provide premium, compassionate care in the comfort of your own home. Our dedicated
-                            professionals ensure your independence and well-being every single day.
+                            professionals ensure your independence and well-being.
                         </p>
-                    </div>
-
-                    <div class="flex flex-row flex-wrap justify-center md:justify-start gap-3 sm:gap-4 mt-6 md:mt-0">
-                        <a href="#contact"
-                            class="inline-flex items-center justify-center px-4 py-2.5 md:px-6 md:py-3 border border-transparent text-sm md:text-lg font-bold rounded-md text-white bg-brand hover:bg-brandDark shadow-xl shadow-black/20 hover:shadow-2xl hover:shadow-black/30 transition-all duration-300 transform hover:-translate-y-1">
-                            Book Assessment
-                        </a>
-                        <a href="#services"
-                            class="inline-flex items-center justify-center px-4 py-2.5 md:px-6 md:py-3 border-2 border-darkText text-sm md:text-lg font-bold rounded-md text-darkText bg-white hover:bg-darkText hover:text-white shadow-md shadow-black/10 hover:shadow-xl hover:shadow-black/20 transition-all duration-300 transform hover:-translate-y-1">
-                            Our Services
-                        </a>
+                        <div class="flex flex-wrap gap-3 md:gap-4">
+                            <a href="contact.php"
+                                class="px-6 py-3 md:px-8 md:py-4 bg-brand text-white text-sm md:text-base font-bold rounded-xl shadow-lg shadow-black/20 hover:shadow-xl hover:shadow-black/30 hover:bg-brandDark hover:-translate-y-1 transition-all duration-300">
+                                Book Assessment
+                            </a>
+                            <a href="services.php"
+                                class="px-6 py-3 md:px-8 md:py-4 bg-white/10 backdrop-blur-md border border-white/30 text-white text-sm md:text-base font-bold rounded-xl hover:bg-white hover:text-darkText hover:-translate-y-1 transition-all duration-300">
+                                Our Services
+                            </a>
+                        </div>
                     </div>
                 </div>
-
-                <div class="md:col-span-6 relative mt-8 md:mt-0">
-                    <div
-                        class="relative rounded-2xl md:rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.15)] border-[6px] md:border-8 border-white group">
-                        <img class="h-[300px] sm:h-[400px] md:h-[500px] w-full object-cover transition-transform duration-700 group-hover:scale-105"
-                            src="img/hero1.jpg" alt="Compassionate Caregiver holding hands with senior">
-
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-darkText/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        </div>
-                    </div>
-
-                    <div
-                        class="absolute -bottom-6 left-1/2 -translate-x-1/2 w-[85%] sm:w-[70%] md:w-auto md:translate-x-0 md:-bottom-10 md:-left-10 lg:-left-12 bg-white p-4 md:p-6 rounded-2xl shadow-2xl flex items-center gap-3 md:gap-4 border border-gray-100 group transition-all hover:border-brand/30">
-                        <div
-                            class="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-brand/10 text-brand flex items-center justify-center font-bold text-2xl md:text-4xl font-heading flex-shrink-0">
-                            9.8
-                        </div>
-                        <div>
-                            <p
-                                class="font-heading font-bold text-sm sm:text-base md:text-xl text-darkText whitespace-nowrap">
-                                Excellent Care</p>
-                            <span class="text-brand font-bold text-xs md:text-sm block sm:inline">★★★★★</span>
-                            <span
-                                class="text-xs md:text-sm text-gray-500 ml-0 sm:ml-1 hidden sm:inline-block">Independent
-                                Reviews</span>
-                        </div>
-                    </div>
-
-                    <div
-                        class="hidden lg:block absolute -top-8 -right-8 w-20 h-20 bg-brand/10 rounded-full border-2 border-brand/20 -z-10">
-                    </div>
-                </div>
-
             </div>
+
+            <div class="slide absolute inset-0 w-full h-full transition-opacity duration-1000 opacity-0 z-0">
+                <img src="img/s1.jpg" alt="Professional Care" class="absolute inset-0 w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent"></div>
+
+                <div
+                    class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-center pt-28 md:pt-32">
+                    <div class="max-w-2xl">
+                        <span
+                            class="inline-flex items-center gap-2 text-white font-bold tracking-widest uppercase text-[10px] md:text-xs px-4 py-2 bg-brand/90 backdrop-blur-sm rounded-full mb-4 md:mb-6 shadow-lg">
+                            Trusted UK Care Providers
+                        </span>
+                        <h1
+                            class="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4 md:mb-6 leading-[1.1]">
+                            Get the help and <span class="text-brand">home support</span> you need.
+                        </h1>
+
+
+
+
+                        <p class="text-base md:text-xl text-gray-200 mb-6 md:mb-8 leading-relaxed max-w-xl">
+                            We provide premium, compassionate care in the comfort of your own home. Our dedicated
+                            professionals ensure your independence and well-being.
+                        </p>
+                        <div class="flex flex-wrap gap-3 md:gap-4">
+                            <a href="contact.php"
+                                class="px-6 py-3 md:px-8 md:py-4 bg-brand text-white text-sm md:text-base font-bold rounded-xl shadow-lg shadow-black/20 hover:shadow-xl hover:shadow-black/30 hover:bg-brandDark hover:-translate-y-1 transition-all duration-300">
+                                Book Assessment
+                            </a>
+                            <a href="services.php"
+                                class="px-6 py-3 md:px-8 md:py-4 bg-white/10 backdrop-blur-md border border-white/30 text-white text-sm md:text-base font-bold rounded-xl hover:bg-white hover:text-darkText hover:-translate-y-1 transition-all duration-300">
+                                Our Services
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="absolute bottom-6 md:bottom-10 left-1/2 -translate-x-1/2 z-30 flex gap-3">
+            <button class="slide-dot w-3 h-3 rounded-full bg-brand transition-all duration-300 w-8"></button>
+            <button
+                class="slide-dot w-3 h-3 rounded-full bg-white/50 hover:bg-white transition-all duration-300"></button>
         </div>
     </section>
 
@@ -132,7 +105,7 @@
                 </span>
 
 
-                <h1 class="font-heading text-2xl  md:text-5xl  font-bold text-darkText mb-4 md:mb-6 tracking-[-0.03em]">
+                <h1 class="font-heading text-2xl  md:text-4xl  font-bold text-darkText mb-4 md:mb-6 tracking-[-0.03em]">
                     Comprehensive
                     <span class="text-brand relative ">Care
                         <svg class="absolute -bottom-1.5 left-0 w-full h-1.5 md:h-2 text-brand/30" viewBox="0 0 100 10"
@@ -160,7 +133,7 @@
                     </div>
                     <div class="flex-1 flex flex-col p-5">
                         <h3
-                            class="font-heading text-xl md:text-2xl font-bold text-darkText mb-3 uppercase tracking-tight">
+                            class="font-heading text-xl md:text-xl font-bold text-darkText mb-3 uppercase tracking-tight">
                             Respite Care Services</h3>
                         <p class="text-gray-600 mb-6 text-sm md:text-base line-clamp-3 flex-1">Temporary, high-quality
                             care to provide family caregivers a much-needed break, ensuring your loved ones remain safe
@@ -184,7 +157,7 @@
                     </div>
                     <div class="flex-1 flex flex-col p-5">
                         <h3
-                            class="font-heading text-xl md:text-2xl font-bold text-darkText mb-3 uppercase tracking-tight">
+                            class="font-heading text-xl md:text-xl font-bold text-darkText mb-3 uppercase tracking-tight">
                             Home Care Services</h3>
                         <p class="text-gray-600 mb-6 text-sm md:text-base line-clamp-3 flex-1">Compassionate daily
                             assistance tailored to your specific needs, enabling you to live happily and independently
@@ -208,7 +181,7 @@
                     </div>
                     <div class="flex-1 flex flex-col p-5">
                         <h3
-                            class="font-heading text-xl md:text-2xl font-bold text-darkText mb-3 uppercase tracking-tight">
+                            class="font-heading text-xl md:text-xl font-bold text-darkText mb-3 uppercase tracking-tight">
                             Safer Recruitment</h3>
                         <p class="text-gray-600 mb-6 text-sm md:text-base line-clamp-3 flex-1">Rigorous vetting and
                             comprehensive training processes to ensure only the most qualified and trustworthy
@@ -259,7 +232,7 @@
                         The Careline Difference
                     </span>
 
-                    <h2 class="font-heading text-2xl md:text-5xl font-bold mb-6 leading-tight">
+                    <h2 class="font-heading text-2xl md:text-4xl font-bold mb-6 leading-tight">
                         Why families across the UK <span class="text-brand italic">trust</span> Careline.
                     </h2>
 
@@ -280,7 +253,7 @@
                                 </svg>
                             </div>
                             <div>
-                                <h4 class="font-heading text-2xl font-bold mb-2 text-white">Tailored Care Plans</h4>
+                                <h4 class="font-heading text-xl font-bold mb-2 text-white">Tailored Care Plans</h4>
                                 <p class="text-gray-400 leading-relaxed text-sm md:text-base">Services specifically
                                     designed to adapt as your health or lifestyle needs change over time.</p>
                             </div>
@@ -297,7 +270,7 @@
                                 </svg>
                             </div>
                             <div>
-                                <h4 class="font-heading text-2xl font-bold mb-2 text-white">24/7 On-Call Support</h4>
+                                <h4 class="font-heading text-xl font-bold mb-2 text-white">24/7 On-Call Support</h4>
                                 <p class="text-gray-400 leading-relaxed text-sm md:text-base">Our dedicated management
                                     team is always available, day or night, ensuring peace of mind.</p>
                             </div>
@@ -314,7 +287,7 @@
                                 </svg>
                             </div>
                             <div>
-                                <h4 class="font-heading text-2xl font-bold mb-2 text-white">Compassionate Staff</h4>
+                                <h4 class="font-heading text-xl font-bold mb-2 text-white">Compassionate Staff</h4>
                                 <p class="text-gray-400 leading-relaxed text-sm md:text-base">Handpicked professionals
                                     chosen not just for their skills, but for their genuine empathy and warmth.</p>
                             </div>
@@ -407,15 +380,15 @@
 
 
                     <h1
-                        class="font-heading text-2xl  md:text-5xl  font-bold text-darkText mb-4 md:mb-6 tracking-[-0.03em]">
-                        Caring with compassion,
-                        <span class="text-brand relative ">crafted to suit
+                        class="font-heading text-2xl  md:text-4xl  font-bold text-darkText mb-4 md:mb-6 tracking-[-0.03em]">
+                        Caring with compassion,crafted to
+                        <span class="text-brand relative ">suit your
                             <svg class="absolute -bottom-1.5 left-0 w-full h-1.5 md:h-2 text-brand/30"
                                 viewBox="0 0 100 10" preserveAspectRatio="none">
                                 <path d="M0 5 L100 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
                             </svg>
                         </span>
-                        your everyday life.
+                        everyday life.
                     </h1>
 
                     <p class="text-gray-600 mb-6 text-base md:text-lg leading-relaxed">
@@ -479,7 +452,7 @@
 
 
                     <h1
-                        class="font-heading text-2xl  md:text-5xl  font-bold text-darkText mb-4 md:mb-6 tracking-[-0.03em]">
+                        class="font-heading text-2xl  md:text-4xl  font-bold text-darkText mb-4 md:mb-6 tracking-[-0.03em]">
                         Build a rewarding
                         <span class="text-brand relative ">career
                             <svg class="absolute -bottom-1.5 left-0 w-full h-1.5 md:h-2 text-brand/30"
@@ -526,7 +499,7 @@
                                         Locations</span>
                                 </div>
                                 <h3
-                                    class="font-heading text-2xl font-bold text-darkText group-hover:text-brand transition-colors uppercase tracking-tight mb-2">
+                                    class="font-heading text-xl font-bold text-darkText group-hover:text-brand transition-colors uppercase tracking-tight mb-2">
                                     Care Worker
                                 </h3>
                                 <p class="text-gray-500 text-sm">Provide frontline compassionate care and daily support
@@ -563,7 +536,7 @@
                                         Region</span>
                                 </div>
                                 <h3
-                                    class="font-heading text-2xl font-bold text-darkText group-hover:text-brand transition-colors uppercase tracking-tight mb-2">
+                                    class="font-heading text-xl font-bold text-darkText group-hover:text-brand transition-colors uppercase tracking-tight mb-2">
                                     Senior Care Supervisor
                                 </h3>
                                 <p class="text-gray-500 text-sm">Lead, mentor, and support our team of care workers
@@ -599,7 +572,7 @@
                                         Office</span>
                                 </div>
                                 <h3
-                                    class="font-heading text-2xl font-bold text-darkText group-hover:text-brand transition-colors uppercase tracking-tight mb-2">
+                                    class="font-heading text-xl font-bold text-darkText group-hover:text-brand transition-colors uppercase tracking-tight mb-2">
                                     Office Support
                                 </h3>
                                 <p class="text-gray-500 text-sm">Manage daily administrative tasks, scheduling, and
@@ -646,7 +619,7 @@
 
 
 
-                <h1 class="font-heading text-2xl  md:text-5xl  font-bold text-darkText mb-4 md:mb-6 tracking-[-0.03em]">
+                <h1 class="font-heading text-2xl  md:text-4xl  font-bold text-darkText mb-4 md:mb-6 tracking-[-0.03em]">
                     Latest
                     <span class="text-brand relative ">News
                         <svg class="absolute -bottom-1.5 left-0 w-full h-1.5 md:h-2 text-brand/30" viewBox="0 0 100 10"
@@ -863,7 +836,7 @@
 
 
 
-                <h1 class="font-heading text-2xl  md:text-5xl  font-bold text-darkText mb-4 md:mb-6 tracking-[-0.03em]">
+                <h1 class="font-heading text-2xl  md:text-4xl  font-bold text-darkText mb-4 md:mb-6 tracking-[-0.03em]">
                     Trusted
                     <span class="text-brand relative ">by UK
                         <svg class="absolute -bottom-1.5 left-0 w-full h-1.5 md:h-2 text-brand/30" viewBox="0 0 100 10"
