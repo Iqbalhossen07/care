@@ -100,31 +100,39 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-// contact map
+function initMap() {
+  // আপনার সঠিক লোকেশন: 74 High Street, Rainham, Kent
+  const officeLocation = { lat: 51.3615175, lng: 0.6085121 };
 
-const mapBtn = document.getElementById("map-switch-btn");
-const normalMap = document.getElementById("normal-map");
-const streetMap = document.getElementById("street-view-map");
-const btnText = document.getElementById("btn-text");
-const btnSub = document.getElementById("btn-subtext");
+  const mapOptions = {
+    zoom: 17,
+    center: officeLocation,
+    mapTypeId: "roadmap",
+    // স্ট্রিট ভিউ এবং পেগম্যান অপশনসমূহ
+    streetViewControl: true,
+    streetViewControlOptions: {
+      position: google.maps.ControlPosition.RIGHT_BOTTOM,
+    },
+    // অন্যান্য কন্ট্রোল
+    fullscreenControl: true,
+    mapTypeControl: false,
+    zoomControl: true,
+    zoomControlOptions: {
+      position: google.maps.ControlPosition.RIGHT_CENTER,
+    },
+  };
 
-if (mapBtn) {
-  let isStreetView = false;
-  mapBtn.addEventListener("click", () => {
-    if (!isStreetView) {
-      // Switch to Street View
-      normalMap.classList.add("opacity-0", "pointer-events-none");
-      streetMap.classList.remove("opacity-0", "pointer-events-none");
-      btnText.innerText = "Back to Regular Map";
-      btnSub.innerText = "Location View";
-      isStreetView = true;
-    } else {
-      // Switch back to Normal Map
-      streetMap.classList.add("opacity-0", "pointer-events-none");
-      normalMap.classList.remove("opacity-0", "pointer-events-none");
-      btnText.innerText = "Switch to Street View";
-      btnSub.innerText = "Interactive";
-      isStreetView = false;
-    }
+  // ম্যাপ অবজেক্ট তৈরি
+  const map = new google.maps.Map(
+    document.getElementById("googleMap"),
+    mapOptions,
+  );
+
+  // অফিসে একটি কাস্টম মার্কার যোগ করা
+  new google.maps.Marker({
+    position: officeLocation,
+    map: map,
+    title: "Community Careline Office",
+    animation: google.maps.Animation.DROP,
   });
 }

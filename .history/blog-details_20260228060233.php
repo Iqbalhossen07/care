@@ -181,13 +181,10 @@
         </div>
     </section>
 
-    <!-- cta section -->
     <?php include('cta.php') ?>
 
-    <!-- footer section -->
     <?php include('footer.php') ?>
 
-    <!-- js section -->
     <script src="main.js"></script>
 </body>
 

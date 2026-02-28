@@ -15,7 +15,7 @@
                  <a href="blogs.php" class="text-gray-700 hover:text-brand font-medium transition-colors">Blogs</a>
                  <a href="contact.php"
                      class="bg-brand text-white px-6 py-2.5 rounded-md font-bold hover:bg-brandDark shadow-md shadow-black/20 hover:shadow-lg hover:shadow-black/30 transition-all duration-300 transform hover:-translate-y-1">
-                     Contact Us
+                     Contact
                  </a>
              </nav>
 

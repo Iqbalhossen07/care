@@ -4,7 +4,6 @@
     <!-- header section  -->
     <?php include('header.php') ?>
 
-    <!-- breadcrumb section -->
     <section class="relative h-[250px] flex items-center overflow-hidden bg-darkText">
         <div class="absolute inset-0 z-0">
             <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1500&q=80"
@@ -32,7 +31,6 @@
         </div>
     </section>
 
-    <!-- blog details section -->
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-6 lg:px-12">
             <div class="grid lg:grid-cols-12 gap-12 lg:gap-16">
@@ -181,13 +179,10 @@
         </div>
     </section>
 
-    <!-- cta section -->
     <?php include('cta.php') ?>
 
-    <!-- footer section -->
     <?php include('footer.php') ?>
 
-    <!-- js section -->
     <script src="main.js"></script>
 </body>
 

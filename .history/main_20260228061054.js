@@ -100,31 +100,27 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-// contact map
+function initMap() {
+  // আপনার অফিসের লোকেশন (Latitude & Longitude)
+  // Rainham, Kent এর আনুমানিক পজিশন দেওয়া হয়েছে
+  const officeLocation = { lat: 51.3615, lng: 0.6085 };
 
-const mapBtn = document.getElementById("map-switch-btn");
-const normalMap = document.getElementById("normal-map");
-const streetMap = document.getElementById("street-view-map");
-const btnText = document.getElementById("btn-text");
-const btnSub = document.getElementById("btn-subtext");
+  const map = new google.maps.Map(document.getElementById("googleMap"), {
+    zoom: 16,
+    center: officeLocation,
+    // এই অপশনগুলো Pegman এবং স্ট্রিট ভিউ সচল করে
+    streetViewControl: true,
+    streetViewControlOptions: {
+      position: google.maps.ControlPosition.RIGHT_BOTTOM,
+    },
+    mapTypeControl: false,
+    fullscreenControl: true,
+  });
 
-if (mapBtn) {
-  let isStreetView = false;
-  mapBtn.addEventListener("click", () => {
-    if (!isStreetView) {
-      // Switch to Street View
-      normalMap.classList.add("opacity-0", "pointer-events-none");
-      streetMap.classList.remove("opacity-0", "pointer-events-none");
-      btnText.innerText = "Back to Regular Map";
-      btnSub.innerText = "Location View";
-      isStreetView = true;
-    } else {
-      // Switch back to Normal Map
-      streetMap.classList.add("opacity-0", "pointer-events-none");
-      normalMap.classList.remove("opacity-0", "pointer-events-none");
-      btnText.innerText = "Switch to Street View";
-      btnSub.innerText = "Interactive";
-      isStreetView = false;
-    }
+  // ম্যাপে একটি মার্কার যোগ করা
+  const marker = new google.maps.Marker({
+    position: officeLocation,
+    map: map,
+    title: "Community Careline Office",
   });
 }
