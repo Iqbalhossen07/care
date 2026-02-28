@@ -84,15 +84,16 @@
 
     <section class="py-24 bg-lightBg">
         <div class="max-w-7xl mx-auto px-6 lg:px-12 text-center">
+            <h2 class="font-heading text-3xl md:text-4xl font-bold text-darkText mb-16">The Values We Live By</h2>
             <h1 class="font-heading text-2xl  md:text-5xl  font-bold text-darkText mb-4 md:mb-6 tracking-[-0.03em]">
-                The Values
-                <span class="text-brand relative ">We
+                Caring is not
+                <span class="text-brand relative ">just our job,
                     <svg class="absolute -bottom-1.5 left-0 w-full h-1.5 md:h-2 text-brand/30" viewBox="0 0 100 10"
                         preserveAspectRatio="none">
                         <path d="M0 5 L100 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
                     </svg>
                 </span>
-                Live By
+                it's our passion.
             </h1>
 
             <div class="grid md:grid-cols-3 gap-8">
@@ -146,17 +147,9 @@
     <section class="py-24 bg-white">
         <div class="max-w-4xl mx-auto px-6 lg:px-8">
             <div class="text-center mb-16">
-
-                <h1 class="font-heading text-2xl  md:text-5xl  font-bold text-darkText mb-4 md:mb-6 tracking-[-0.03em]">
-                    Frequently
-                    <span class="text-brand relative ">Asked
-                        <svg class="absolute -bottom-1.5 left-0 w-full h-1.5 md:h-2 text-brand/30" viewBox="0 0 100 10"
-                            preserveAspectRatio="none">
-                            <path d="M0 5 L100 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                        </svg>
-                    </span>
-                    Questions
-                </h1>
+                <h2 class="font-heading text-3xl md:text-4xl font-bold text-darkText mb-4 uppercase tracking-tight">
+                    Frequently Asked Questions</h2>
+                <div class="w-20 h-1.5 bg-brand rounded-full mx-auto"></div>
                 <p class="mt-6 text-gray-500">Find answers to common questions about our care services and processes.
                 </p>
             </div>

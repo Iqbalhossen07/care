@@ -63,30 +63,11 @@
                             class="absolute top-4 left-4 bg-brand text-white text-[10px] font-bold px-3 py-1 rounded-sm uppercase tracking-tighter">Health</span>
                     </div>
                     <div class="p-6 flex flex-col flex-1">
-                        <div class="flex flex-wrap items-center gap-6 mb-2  ">
-
-                            <div class="text-gray-500 text-sm flex items-center gap-2">
-                                <div class="w-8 h-8 rounded-lg bg-lightBg flex items-center justify-center">
-                                    <svg class="w-4 h-4 text-brand" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24" stroke-width="2">
-                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                                        <line x1="16" y1="2" x2="16" y2="6"></line>
-                                        <line x1="8" y1="2" x2="8" y2="6"></line>
-                                        <line x1="3" y1="10" x2="21" y2="10"></line>
-                                    </svg>
-                                </div>
-                                <span class="font-medium text-darkText tracking-tight">Feb 28, 2026</span>
-                            </div>
-                            <div class="text-gray-500 text-sm flex items-center gap-2">
-                                <div class="w-8 h-8 rounded-lg bg-lightBg flex items-center justify-center">
-                                    <svg class="w-4 h-4 text-brand" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24" stroke-width="2">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                                    </svg>
-                                </div>
-                                <span class="font-medium text-darkText">Admin</span>
-                            </div>
+                        <div
+                            class="flex items-center gap-4 mb-4 text-[11px] font-bold text-gray-400 uppercase tracking-widest">
+                            <span>Feb 28, 2026</span>
+                            <span class="w-1.5 h-1.5 rounded-full bg-brand"></span>
+                            <span>5 Min Read</span>
                         </div>
                         <h3
                             class="font-heading text-xl font-bold text-darkText mb-3 group-hover:text-brand transition-colors line-clamp-2 uppercase tracking-tight">
@@ -114,30 +95,11 @@
                             class="absolute top-4 left-4 bg-brand text-white text-[10px] font-bold px-3 py-1 rounded-sm uppercase tracking-tighter">Lifestyle</span>
                     </div>
                     <div class="p-6 flex flex-col flex-1">
-                        <div class="flex flex-wrap items-center gap-6 mb-2  ">
-
-                            <div class="text-gray-500 text-sm flex items-center gap-2">
-                                <div class="w-8 h-8 rounded-lg bg-lightBg flex items-center justify-center">
-                                    <svg class="w-4 h-4 text-brand" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24" stroke-width="2">
-                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                                        <line x1="16" y1="2" x2="16" y2="6"></line>
-                                        <line x1="8" y1="2" x2="8" y2="6"></line>
-                                        <line x1="3" y1="10" x2="21" y2="10"></line>
-                                    </svg>
-                                </div>
-                                <span class="font-medium text-darkText tracking-tight">Feb 28, 2026</span>
-                            </div>
-                            <div class="text-gray-500 text-sm flex items-center gap-2">
-                                <div class="w-8 h-8 rounded-lg bg-lightBg flex items-center justify-center">
-                                    <svg class="w-4 h-4 text-brand" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24" stroke-width="2">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                                    </svg>
-                                </div>
-                                <span class="font-medium text-darkText">Admin</span>
-                            </div>
+                        <div
+                            class="flex items-center gap-4 mb-4 text-[11px] font-bold text-gray-400 uppercase tracking-widest">
+                            <span>Feb 25, 2026</span>
+                            <span class="w-1.5 h-1.5 rounded-full bg-brand"></span>
+                            <span>3 Min Read</span>
                         </div>
                         <h3
                             class="font-heading text-xl font-bold text-darkText mb-3 group-hover:text-brand transition-colors line-clamp-2 uppercase tracking-tight">
@@ -165,7 +127,7 @@
                             class="absolute top-4 left-4 bg-brand text-white text-[10px] font-bold px-3 py-1 rounded-sm uppercase tracking-tighter">Company</span>
                     </div>
                     <div class="p-6 flex flex-col flex-1">
-                        <div class="flex flex-wrap items-center gap-6 mb-2  ">
+                        <div class="flex flex-wrap items-center gap-6 mb-  border-b border-gray-100">
 
                             <div class="text-gray-500 text-sm flex items-center gap-2">
                                 <div class="w-8 h-8 rounded-lg bg-lightBg flex items-center justify-center">

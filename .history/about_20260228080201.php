@@ -40,19 +40,22 @@
 
                 <div class="space-y-8">
                     <div>
-
+                        <h2
+                            class="font-heading text-3xl md:text-4xl font-bold text-darkText mb-6 uppercase tracking-tight">
+                            Caring is not just our job, <br><span class="text-brand italic">it's our passion.</span>
+                        </h2>
                         <h1
                             class="font-heading text-2xl  md:text-5xl  font-bold text-darkText mb-4 md:mb-6 tracking-[-0.03em]">
                             Caring is not
-                            <span class="text-brand relative ">just our job,
-                                <svg class="absolute -bottom-1.5 left-0 w-full h-1.5 md:h-2 text-brand/30"
-                                    viewBox="0 0 100 10" preserveAspectRatio="none">
-                                    <path d="M0 5 L100 5" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" />
+                            <span class="text-brand relative " just our job, <svg
+                                class="absolute -bottom-1.5 left-0 w-full h-1.5 md:h-2 text-brand/30"
+                                viewBox="0 0 100 10" preserveAspectRatio="none">
+                                <path d="M0 5 L100 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
                                 </svg>
                             </span>
-                            it's our passion.
+                            Solutions
                         </h1>
+                        <div class="w-20 h-1.5 bg-brand rounded-full mb-8"></div>
                         <p class="text-lg leading-relaxed text-gray-600 mb-6">
                             Community Careline was founded with a simple yet powerful vision: to treat every client like
                             our own family. We believe that everyone deserves to age with dignity, surrounded by love
@@ -84,16 +87,7 @@
 
     <section class="py-24 bg-lightBg">
         <div class="max-w-7xl mx-auto px-6 lg:px-12 text-center">
-            <h1 class="font-heading text-2xl  md:text-5xl  font-bold text-darkText mb-4 md:mb-6 tracking-[-0.03em]">
-                The Values
-                <span class="text-brand relative ">We
-                    <svg class="absolute -bottom-1.5 left-0 w-full h-1.5 md:h-2 text-brand/30" viewBox="0 0 100 10"
-                        preserveAspectRatio="none">
-                        <path d="M0 5 L100 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                    </svg>
-                </span>
-                Live By
-            </h1>
+            <h2 class="font-heading text-3xl md:text-4xl font-bold text-darkText mb-16">The Values We Live By</h2>
 
             <div class="grid md:grid-cols-3 gap-8">
                 <div
@@ -146,17 +140,9 @@
     <section class="py-24 bg-white">
         <div class="max-w-4xl mx-auto px-6 lg:px-8">
             <div class="text-center mb-16">
-
-                <h1 class="font-heading text-2xl  md:text-5xl  font-bold text-darkText mb-4 md:mb-6 tracking-[-0.03em]">
-                    Frequently
-                    <span class="text-brand relative ">Asked
-                        <svg class="absolute -bottom-1.5 left-0 w-full h-1.5 md:h-2 text-brand/30" viewBox="0 0 100 10"
-                            preserveAspectRatio="none">
-                            <path d="M0 5 L100 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                        </svg>
-                    </span>
-                    Questions
-                </h1>
+                <h2 class="font-heading text-3xl md:text-4xl font-bold text-darkText mb-4 uppercase tracking-tight">
+                    Frequently Asked Questions</h2>
+                <div class="w-20 h-1.5 bg-brand rounded-full mx-auto"></div>
                 <p class="mt-6 text-gray-500">Find answers to common questions about our care services and processes.
                 </p>
             </div>

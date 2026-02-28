@@ -22,10 +22,10 @@ $current_page = basename($_SERVER['PHP_SELF']);
                     Us</a>
 
                 <a href="services.php"
-                    class="<?php echo ($current_page == 'services.php'|| $current_page =='service-details.php') ? 'text-brand font-bold border-b-2 border-brand' : 'text-gray-700 font-medium hover:text-brand'; ?> transition-all duration-200 py-1">Services</a>
+                    class="<?php echo ($current_page == 'services.php'|| $cu) ? 'text-brand font-bold border-b-2 border-brand' : 'text-gray-700 font-medium hover:text-brand'; ?> transition-all duration-200 py-1">Services</a>
 
                 <a href="careers.php"
-                    class="<?php echo ($current_page == 'careers.php' || $current_page =='career-details.php') ? 'text-brand font-bold border-b-2 border-brand' : 'text-gray-700 font-medium hover:text-brand'; ?> transition-all duration-200 py-1">Careers</a>
+                    class="<?php echo ($current_page == 'careers.php') ? 'text-brand font-bold border-b-2 border-brand' : 'text-gray-700 font-medium hover:text-brand'; ?> transition-all duration-200 py-1">Careers</a>
 
                 <a href="blogs.php"
                     class="<?php echo ($current_page == 'blogs.php' || $current_page == 'blog-details.php') ? 'text-brand font-bold border-b-2 border-brand' : 'text-gray-700 font-medium hover:text-brand'; ?> transition-all duration-200 py-1">Blogs</a>

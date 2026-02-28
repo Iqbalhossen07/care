@@ -157,6 +157,7 @@
                     </span>
                     Questions
                 </h1>
+                <div class="w-20 h-1.5 bg-brand rounded-full mx-auto"></div>
                 <p class="mt-6 text-gray-500">Find answers to common questions about our care services and processes.
                 </p>
             </div>

@@ -839,7 +839,7 @@
             </div>
 
             <div class="mt-16 text-center">
-                <a href="blogs.php"
+                <a href="#"
                     class="inline-flex items-center justify-center px-8 py-3.5 border border-transparent text-base md:text-lg font-bold rounded-md text-white bg-brand hover:bg-brandDark shadow-xl shadow-black/20 hover:shadow-2xl hover:shadow-black/30 transition-all duration-300 transform hover:-translate-y-1">
                     View All Posts
                 </a>
